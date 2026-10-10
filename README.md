@@ -1,137 +1,219 @@
-Customer Shopping Behavior Analysis
+# Customer Shopping Behavior Analysis
 
-An end-to-end data analytics project using Python, SQL, and Power BI
+### An End-to-End Data Analytics Project Using Python, SQL & Power BI
 
-📌 Project Overview
+**Transforming customer shopping data into actionable business insights through data analysis, SQL querying, and interactive visualization.**
 
-This project analyzes customer shopping behavior to understand purchasing patterns, product preferences, customer segments, and shopping habits. The objective is to transform raw customer shopping data into meaningful business insights through data cleaning, exploratory data analysis, SQL queries, and interactive Power BI visualizations.
+---
 
-The project demonstrates an end-to-end analytics workflow, from preparing the dataset to communicating findings that can support data-driven business decisions.
+## 📌 Project Overview
 
-🎯 Business Objectives
+This project focuses on analyzing customer shopping behavior to identify purchasing patterns, product preferences, customer segments, and shopping trends. The objective is to transform raw customer data into meaningful business insights using **Python, SQL, and Power BI**.
 
-Analyze customer purchasing patterns and product preferences.
+The project follows an end-to-end data analytics workflow, covering data preparation, exploratory data analysis (EDA), SQL-based business analysis, interactive dashboard development, and insight generation to support data-driven decision-making.
 
-Compare purchase behavior across product categories and customer demographics.
+## 🎯 Business Objectives
 
-Examine the relationship between subscription status and purchasing behavior.
+- Analyze customer purchasing patterns and product preferences.
+- Compare purchasing behavior across product categories and customer demographics.
+- Examine the relationship between subscription status and purchasing behavior.
+- Evaluate payment methods, shipping preferences, and discount usage.
+- Identify patterns in purchase frequency and customer reviews.
+- Develop an interactive Power BI dashboard to communicate key business insights.
 
-Understand payment methods, shipping preferences, and discount usage.
+## 🛠️ Tools & Technologies
 
-Identify patterns in purchase frequency and customer reviews.
+| Technology | Purpose |
+|:--|:--|
+| **Python** | Data cleaning, preparation, and exploratory data analysis |
+| **Pandas & NumPy** | Data manipulation and transformation |
+| **SQL** | Business analysis, aggregations, and customer segmentation |
+| **Power BI** | Interactive dashboards and data visualization |
+| **Git & GitHub** | Version control and project documentation |
 
-Develop an interactive dashboard to communicate business insights.
+## 📂 Dataset Overview
 
-🛠️ Tools & Technologies
+The dataset contains **3,900 records and 18 columns** related to customer shopping behavior.
 
-Python: Data cleaning, exploratory data analysis, and data preparation.
+### Key Data Attributes
 
-Pandas & NumPy: Data manipulation and transformation.
+- **Customer Demographics:** Age and gender
+- **Product Information:** Item purchased, category, size, color, and season
+- **Purchase Information:** Purchase amount, previous purchases, and purchase frequency
+- **Customer Experience:** Review rating and shipping type
+- **Marketing Information:** Subscription status, discount application, and promotional code usage
+- **Payment Information:** Payment method
+- **Geographic Information:** Customer location
 
-SQL: Business analysis, aggregations, and customer segmentation.
+**Data Quality:** Initial inspection identified 37 missing values in the `Review Rating` column. These values are evaluated and handled using the documented data-cleaning methodology.
 
-Power BI: Interactive dashboard development and visualization.
+**Data Source:** Add the original dataset source and applicable license or usage terms before publishing.
 
-Git & GitHub: Version control and project documentation.
+## 🔄 Project Workflow
 
-📂 Dataset Overview
+### 1. Data Preparation & Exploratory Data Analysis — Python
 
-The dataset contains 3,900 records and 18 columns related to customer shopping behavior.
+- Import and inspect the raw dataset.
+- Evaluate data types, missing values, and duplicate records.
+- Clean and transform data where necessary.
+- Explore customer demographics and purchasing behavior.
+- Perform exploratory analysis using descriptive statistics and visualizations.
 
-Key attributes include:
+### 2. Business Analysis — SQL
 
-Customer demographics: Age and Gender
+- Analyze purchasing behavior across product categories.
+- Calculate average purchase amounts and relevant business metrics.
+- Compare customer segments and subscription status.
+- Investigate payment preferences and discount usage.
+- Answer business questions using SQL queries and aggregations.
 
-Product information: Item Purchased, Category, Size, Color, and Season
+### 3. Dashboard Development — Power BI
 
-Purchase information: Purchase Amount, Previous Purchases, and Frequency of Purchases
+- Design KPI cards to summarize key business metrics.
+- Visualize purchasing patterns across categories and customer segments.
+- Analyze payment methods, subscription status, and discount usage.
+- Implement interactive slicers and filters for deeper analysis.
+- Present insights through a clear, user-friendly dashboard.
 
-Customer experience: Review Rating and Shipping Type
+### 4. Insights & Business Recommendations
 
-Marketing information: Subscription Status, Discount Applied, and Promo Code Used
+- Interpret findings from Python, SQL, and Power BI.
+- Identify meaningful patterns in customer purchasing behavior.
+- Develop evidence-based recommendations to support business decisions.
 
-Payment information: Payment Method
+## 📊 Power BI Dashboard
 
-Geographic information: Location
+The Power BI dashboard provides an interactive view of customer purchasing behavior, product categories, purchase amounts, and relevant customer attributes.
 
-Data quality: The initial inspection identified 37 missing values in the Review Rating column. These values are assessed and handled according to the documented data-cleaning approach.
+### Dashboard Highlights
 
-Data source: Add the original dataset source and applicable license or usage terms here.
+- **Key Performance Indicators (KPIs)**
+- **Product Category Analysis**
+- **Customer Demographic Analysis**
+- **Purchase Frequency & Payment Preferences**
+- **Subscription & Discount Analysis**
+- **Interactive Filters & Slicers**
 
-🔄 Project Workflow
+### Dashboard Preview
 
-1. Data Preparation & Exploratory Data Analysis — Python
+![Customer Shopping Behavior Dashboard](images/dashboard_overview.png)
 
-Load and inspect the raw dataset.
+*The screenshot above displays the Power BI dashboard. Replace the image path with the location of your actual dashboard screenshot if needed.*
 
-Examine data types, missing values, and duplicate records.
+## 💡 Key Business Questions
 
-Clean and transform the data where necessary.
+The analysis aims to answer the following business questions:
 
-Explore customer demographics and purchasing behavior.
+1. Which product categories account for the largest share of purchase records?
+2. How do purchase amounts vary across customer demographics?
+3. How does subscription status relate to purchasing behavior?
+4. Which payment methods are most frequently used?
+5. How are discounts and promotional codes used across customer segments?
+6. What patterns can be observed in customer purchase frequency and review ratings?
 
-Identify patterns using descriptive statistics and visualizations.
+### Key Findings
 
-2. Business Analysis — SQL
+**Add three to five verified findings from your analysis in this section.** Include actual metrics, relevant comparisons, and the business implications of each finding.
 
-Analyze purchasing behavior across product categories.
+For example:
 
-Calculate average purchase amounts and other relevant metrics.
+- **Product Category Analysis:** Identify the category with the highest number of purchase records.
+- **Customer Segmentation:** Compare average purchase amounts across relevant customer groups.
+- **Subscription Analysis:** Compare purchasing behavior between subscribers and non-subscribers.
 
-Compare customer segments and subscription status.
+*These are analysis prompts, not confirmed findings. Replace them with your actual results.*
 
-Investigate payment preferences and discount usage.
+## 📁 Repository Structure
 
-Answer business questions using SQL queries.
+```text
+customer-shopping-behavior-analysis/
+│
+├── data/
+│   └── customer_shopping_behavior.csv
+│
+├── python/
+│   ├── data_cleaning.ipynb
+│   └── exploratory_data_analysis.ipynb
+│
+├── sql/
+│   └── customer_behavior_analysis.sql
+│
+├── powerbi/
+│   └── customer_shopping_behavior_dashboard.pbix
+│
+├── images/
+│   └── dashboard_overview.png
+│
+├── requirements.txt
+├── .gitignore
+└── README.md
+```
 
-3. Dashboard Development — Power BI
+*Update the filenames and folders to match your actual repository.*
 
-Design KPI cards to summarize key business metrics.
+## 🚀 How to Run the Project
 
-Visualize purchasing patterns across categories and customer segments.
+### Prerequisites
 
-Analyze payment methods, subscription status, and discounts.
+- Python 3.x
+- Jupyter Notebook or VS Code
+- MySQL, PostgreSQL, or SQL Server, depending on the SQL queries used
+- Power BI Desktop
 
-Add interactive filters to support deeper exploration.
+### Step 1: Clone the Repository
 
-Present findings in a clear, business-friendly format.
+```bash
+git clone https://github.com/YOUR_USERNAME/customer-shopping-behavior-analysis.git
+cd customer-shopping-behavior-analysis
+```
 
-4. Insights & Recommendations
+### Step 2: Set Up the Python Environment
 
-Interpret the results from Python, SQL, and Power BI to identify meaningful patterns and develop evidence-based business recommendations.
+Create a virtual environment:
 
-📊 Power BI Dashboard
+```bash
+python -m venv .venv
+```
 
+Activate the environment on Windows:
 
+```bash
+.venv\Scripts\activate
+```
 
-The Power BI dashboard provides a visual overview of customer shopping patterns, product categories, purchase amounts, and other relevant customer attributes.
+Install the required dependencies:
 
-Dashboard highlights:
+```bash
+pip install -r requirements.txt
+```
 
-Key performance indicators
+### Step 3: Run the Python Analysis
 
-Product category comparisons
+Open the notebooks in the `python/` directory using Jupyter Notebook or VS Code. Execute the cells in order to reproduce the data preparation and exploratory data analysis.
 
-Customer demographic analysis
+### Step 4: Execute the SQL Queries
 
-Purchase frequency and payment preferences
+Load the dataset into your selected SQL database and execute the queries in `sql/customer_behavior_analysis.sql`. Follow the database setup instructions documented in the repository.
 
-Subscription and discount analysis
+### Step 5: Open the Power BI Dashboard
 
-Interactive slicers and filters
+Open the `.pbix` file in Power BI Desktop. If necessary, update the data source path to point to the CSV file in your local repository and refresh the data.
 
-Update this section to match the visuals and features actually implemented in your dashboard.
+## 🔮 Future Improvements
 
-💡 Key Insights
+- Implement customer segmentation using statistical or machine learning techniques.
+- Automate data preparation and reporting workflows.
+- Develop additional customer retention and purchasing metrics.
+- Enhance dashboard interactivity and usability.
+- Incorporate additional data to analyze customer behavior over time.
 
-The following business questions guide the analysis:
+## 👤 Author
 
-Which product categories account for the largest share of purchase records?
+**Aastha Kashyap**
 
-How do purchase amounts vary across customer demographics?
+- **GitHub:** [Your GitHub Profile](https://github.com/Aastha0155)
+- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/aastha-kashyap-b07267227/)
 
-How does subscription status relate to purchasing behavior?
+---
 
-Which payment methods are most frequently used?
-
-How are discounts and promotional codes used across customer segments?
+*Developed as a data analytics portfolio project to demonstrate practical skills in Python, SQL, and Power BI.*
