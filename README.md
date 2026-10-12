@@ -96,8 +96,6 @@ The Power BI dashboard provides an interactive view of customer purchasing behav
 
 ### Dashboard Preview
 
-![Customer Shopping Behavior Dashboard](images/dashboard_overview.png)
-
 *The screenshot above displays the Power BI dashboard. Replace the image path with the location of your actual dashboard screenshot if needed.*
 
 ## 💡 Key Business Questions
