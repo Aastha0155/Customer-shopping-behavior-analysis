@@ -1,17 +1,18 @@
 # Customer Shopping Behavior Analysis
 
-### An End-to-End Data Analytics Project Using Python, SQL & Power BI
+**An End-to-End Data Analytics Project Using Python, SQL & Power BI**
 
-**Transforming customer shopping data into actionable business insights through data analysis, SQL querying, and interactive visualization.**
+An end-to-end data analytics project that explores customer purchasing patterns, product preferences, subscription behavior, discount usage, and payment preferences using Python, SQL, and Power BI.
 
----
+The project demonstrates data cleaning, exploratory data analysis, SQL-based business analysis, and interactive dashboard development to turn raw shopping data into actionable business insights.
 
-## 📌 Project Overview
-
-This project focuses on analyzing customer shopping behavior to identify purchasing patterns, product preferences, customer segments, and shopping trends. The objective is to transform raw customer data into meaningful business insights using **Python, SQL, and Power BI**.
-
-The project follows an end-to-end data analytics workflow, covering data preparation, exploratory data analysis (EDA), SQL-based business analysis, interactive dashboard development, and insight generation to support data-driven decision-making.
-
+## Project Objectives
+- Analyze customer purchasing patterns and product preferences.
+- Compare purchase behavior across product categories and customer segments.
+- Examine subscription status, discounts, and promotional code usage.
+- Analyze payment methods, shipping preferences, and customer ratings.
+- Build an interactive Power BI dashboard to support data-driven decision-making.
+- 
 ## 🎯 Business Objectives
 
 - Analyze customer purchasing patterns and product preferences.
