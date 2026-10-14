@@ -32,21 +32,19 @@ The project demonstrates data cleaning, exploratory data analysis, SQL-based bus
 | **Power BI** | Interactive dashboards and data visualization |
 | **Git & GitHub** | Version control and project documentation |
 
-## 📂 Dataset Overview
+## Dataset Overview
 
-The dataset contains **3,900 records and 18 columns** related to customer shopping behavior.
+- **Total records:** 3,900
+- **Total columns:** 18
+- **Missing values:** 37 in the `Review Rating` column, identified during initial inspection.
 
-### Key Data Attributes
+The dataset contains customer demographics, product details, purchase amounts, previous purchases, payment methods, shipping preferences, subscription status, discounts, promotional codes, customer ratings, and location information.
 
-- **Customer Demographics:** Age and gender
-- **Product Information:** Item purchased, category, size, color, and season
-- **Purchase Information:** Purchase amount, previous purchases, and purchase frequency
-- **Customer Experience:** Review rating and shipping type
-- **Marketing Information:** Subscription status, discount application, and promotional code usage
-- **Payment Information:** Payment method
-- **Geographic Information:** Customer location
-
-**Data Quality:** Initial inspection identified 37 missing values in the `Review Rating` column. These values are evaluated and handled using the documented data-cleaning methodology.
+### Data Cleaning
+- Inspected data types and dataset structure.
+- Identified and handled missing values using the documented cleaning method.
+- Checked for duplicate records and inconsistent data.
+- Prepared the data for exploratory analysis and visualization.
 
 **Data Source:** Add the original dataset source and applicable license or usage terms before publishing.
 
